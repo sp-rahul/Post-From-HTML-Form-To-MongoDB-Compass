@@ -1,0 +1,52 @@
+<!DOCTYPE>
+<html lang = "en">
+<head>
+<title>28 March</title>
+
+<link rel= "stylesheet" href = "style.css"> 
+
+
+</head>
+
+<body>
+<p> Form Creation</p>
+
+<div class="form">
+
+<form method="post" action="/">
+<label for="fname"> First Name:</label>
+<input type="text" id = "fname" name="fname" placeholder="First Name" > <br><br>
+<label for="lname"> Last Name:</label>
+<input type="text" id="lname" name="lname" placeholder="Last Name"> <br><br>
+
+ <label for="phone"> Phone No:</label>
+  <input type="tel" id="phone" name="phone" placeholder="01XXX-XXXXXX" pattern="01[0-9]{3}-[0-9]{6}" required><br><br>
+ <small class="sbmit"> Format: 01792-409816</small><br><br>
+ 
+ <label for="email">Email: </label>
+ <input type="email" id= "email" name="email" placeholder="abcd@gmail.com"><br><br>
+ 
+ 
+ <p>Enter your Gender</p><br>
+ <input type = "radio" id = "male" name="gender>
+  <label for="male"> Male</label>
+ <input type = "radio" id = "female" name="gender">
+  <label for="female"> Female</label>
+ <input type = "radio" id = "others" name="gender">
+  <label for="others"> Other</label><br><br>
+
+ 
+ 
+ <input type="submit" value="Submit" class="sbmit" >
+<!-- <button > </button> -->
+
+
+
+</form>
+
+</div>
+
+</body>
+
+
+</html>
